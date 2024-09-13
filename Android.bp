@@ -7061,8 +7061,12 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so"],
 			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
 	},
-	compile_multilib: "32",
+	compile_multilib: "both",
 	prefer: true,
 	system_ext_specific: true,
 }
