@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
-    libmmosal \
+    libmmosal-vendor \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -266,7 +266,7 @@ PRODUCT_PACKAGES += \
     libwfdutils_proprietary \
     libasphere \
     libshoebox \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0-vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     android.hardware.secure_element@1.0-impl \
     com.qualcomm.qti.dpm.api@1.0-vendor \
