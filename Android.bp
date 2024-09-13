@@ -2830,24 +2830,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.citsensorservice@1.1-impl",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so"],
-			shared_libs: ["libhidlbase", "libhidltransport", "libutils", "liblog", "libcutils", "libhardware", "libbase", "libssccalapi", "vendor.xiaomi.hardware.citsensorservice@1.0", "vendor.xiaomi.hardware.citsensorservice@1.1", "android.frameworks.sensorservice@1.0", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "android.hardware.graphics.common@1.2", "vendor.display.config@2.0", "libqdutils", "vendor.qti.hardware.display.composer@3.0", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "jcos_nq_client",
 	owner: "xiaomi",
 	strip: {
@@ -6626,40 +6608,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.citsensorservice@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.citsensorservice@1.1",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "vendor.xiaomi.hardware.citsensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libmmosal",
 	owner: "xiaomi",
 	strip: {
@@ -7639,15 +7587,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "vendor.xiaomi.hardware.citsensorservice@1.1-service.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
 cc_prebuilt_binary {
 	name: "ATFWD-daemon",
 	owner: "xiaomi",
@@ -8061,24 +8000,6 @@ cc_prebuilt_binary {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service"],
 			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "se_nq_extn_client", "ls_nq_client", "jcos_nq_client", "libhidlbase", "android.hardware.secure_element@1.0", "android.hardware.secure_element@1.1", "android.hardware.secure_element@1.2", "vendor.qti.esepowermanager@1.0", "vendor.qti.esepowermanager@1.1", "android.hardware.secure_element@1.0-impl", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "vendor.xiaomi.hardware.citsensorservice@1.1-service",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libssccalapi", "libhidlbase", "libhidltransport", "vendor.xiaomi.hardware.citsensorservice@1.0", "vendor.xiaomi.hardware.citsensorservice@1.1", "android.frameworks.sensorservice@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
