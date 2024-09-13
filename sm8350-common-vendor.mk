@@ -168,14 +168,22 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_utils \
     libc2d30_bltlib \
+    libcdsprpc \
+    libconfigdb \
+    libcvp2_1 \
+    libcvp_common \
     libdiag \
     libdsi_netctrl \
     libdsutils \
+    libfastcvdsp_stub \
+    libfastcvopt \
     libgsl \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
+    libmdmdetect \
     libmmosal-vendor \
+    libnetmgr \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -203,10 +211,13 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libthermalclient \
     libvppclient \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
+    libxml \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.qconfig@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -316,14 +327,10 @@ PRODUCT_PACKAGES += \
     libcdfw \
     libcdfw_remote_api \
     libcdsp_default_listener \
-    libcdsprpc \
     libcne \
     libcneapiclient \
     libcneoplookup \
-    libconfigdb \
     libcpion \
-    libcvp2_1 \
-    libcvp_common \
     libcvpcpuRev_skel \
     libdataitems \
     libdisp-aba \
@@ -333,8 +340,6 @@ PRODUCT_PACKAGES += \
     libdpps \
     libdrmfs \
     libdrmtime \
-    libfastcvdsp_stub \
-    libfastcvopt \
     libhdr_tm \
     libhydra_common \
     libizat_client_api \
@@ -352,7 +357,6 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
-    libmdmdetect \
     libmdsprpc \
     libmeters \
     libminkdescriptor \
@@ -360,7 +364,6 @@ PRODUCT_PACKAGES += \
     libmlipay \
     libmlipay@1.1 \
     libmodemapi \
-    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -406,14 +409,12 @@ PRODUCT_PACKAGES += \
     libssd \
     libsynergy_loc_api \
     libsystem_health_mon \
-    libthermalclient \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
     libwms \
     libwqe \
     libwvhidl \
-    libxml \
     libxtadapter \
     ls_nq_client \
     libwvdrmengine \
@@ -463,7 +464,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
