@@ -12498,6 +12498,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder",
+		"libgui_shim",
                 "libmmosal",
                 "liblog",
                 "libutils",
